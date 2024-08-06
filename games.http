@@ -1,0 +1,39 @@
+GET http://localhost:5094/games
+
+###
+GET http://localhost:5094/games/1
+
+###
+POST http://localhost:5094/games
+Content-Type: application/json
+
+{
+    "name": "Spy x Family",
+    "genreId": 6,
+    "price": 19.00,
+    "releaseDate": "2022-08-09"
+}
+
+###
+PUT http://localhost:5094/games/1
+Content-Type: application/json
+
+{
+    "name": "Street Fighter II",
+    "genreId": 1,
+    "price": 9.99,
+    "releaseDate": "2024-11-12"
+}
+
+###
+DELETE http://localhost:5094/games/1
+
+###
+POST http://localhost:5094/games
+Content-Type: application/json
+
+{
+    "genre": "Role Player",
+    "price": 20.00,
+    "releaseDate": "2024-11-12"
+}
