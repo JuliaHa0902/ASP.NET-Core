@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GameStore.Frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameStore.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GameStore.Frontend.props",
+      "PackagePath": "build\\GameStore.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GameStore.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\GameStore.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GameStore.Frontend.props",
+      "PackagePath": "buildTransitive\\GameStore.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

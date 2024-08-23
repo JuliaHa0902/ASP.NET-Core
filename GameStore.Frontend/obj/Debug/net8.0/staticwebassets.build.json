@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "fZJC+wCN9yBCVNsNnC/o111mnWbTqZ5sJiXAJ4TCfyA=",
+  "Source": "GameStore.Frontend",
+  "BasePath": "_content/GameStore.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameStore.Frontend\\wwwroot",
+      "Source": "GameStore.Frontend",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\wwwroot\\",
+      "BasePath": "_content/GameStore.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Frontend.styles.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Frontend.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Frontend.bundle.scp.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\wwwroot\\app.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\GameStore.Frontend\\wwwroot\\",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}
