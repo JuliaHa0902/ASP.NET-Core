@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj": {}
+    "c:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj": {
+    "c:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj",
+        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj",
         "projectName": "Gamestore",
-        "projectPath": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj",
+        "projectPath": "c:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\Gamestore.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\obj\\",
+        "outputPath": "c:\\Users\\julia\\OneDrive\\Documents\\School\\Others\\ASP.NET\\Gamestore\\Gamestore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
