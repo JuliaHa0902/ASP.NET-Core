@@ -39,7 +39,7 @@ public class GamesClient {
             Price = game.Price,
             ReleaseDate = game.ReleaseDate 
         };
-        Console.WriteLine(game.Name);
+        // Console.WriteLine(game.Name);
         games.Add(gameSummary);
     }
 }
