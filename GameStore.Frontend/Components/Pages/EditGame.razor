@@ -12,10 +12,13 @@
 else {
     <div class="row">
         <div class="col-md-4">
-            <EditForm Model="@game" FormName="editGame" OnSubmit="HandleSubmit">
+            <EditForm Model="@game" FormName="editGame" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
                 <div class="mb-3">
                     <label for="name" class="form-label">Name:</label>
                     <InputText id="name" @bind-Value="game.Name" class="form-control"></InputText>
+                    <ValidationMessage For="() => game.Name"/>
                 </div>
 
                 <div class="mb-3">
@@ -26,11 +29,13 @@ else {
                             <option value="@genre.Id">@genre.Name</option>
                         }
                     </InputSelect>
+                    <ValidationMessage For="() => game.GenreId"/>
                 </div>
 
                 <div class="mb-3">
                     <label for="price" class="form-label">Price:</label>
                     <InputNumber id="price" @bind-Value="game.Price" class="form-control"></InputNumber>
+                    <ValidationMessage For="() => game.Price"/>
                 </div>
 
                 <div class="mb-3">
