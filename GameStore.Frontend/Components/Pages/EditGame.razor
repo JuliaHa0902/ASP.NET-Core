@@ -1,12 +1,13 @@
 @page "/editgame"
+@page "/editgame/{id:int}"
 @inject NavigationManager NavigationManager
 @inject GamesClient GamesClient
 @inject GenresClient GenresClient
 
-<PageTitle>New game</PageTitle>
-<h3>New Game</h3>
+<PageTitle>@title</PageTitle>
+<h3>@title</h3>
 
-@if (genres is null) {
+@if (genres is null || game is null) {
     <p>Loading</p>
 }
 else {
@@ -42,7 +43,7 @@ else {
                     <label for="releaseDate" class="form-label">Release Date:</label>
                     <InputDate id="releaseDate" @bind-Value="game.ReleaseDate" class="form-control"></InputDate>
                 </div>
-                <button type="submit" class="btn btn-primary">Add</button>
+                <button type="submit" class="btn btn-primary">Save</button>
                 <a role="button" class="btn btn-secondary" href="/">Cancel</a>
             </EditForm>
         </div>
@@ -50,19 +51,42 @@ else {
 }
 
 @code {
+    [Parameter]
+    public int? Id {get; set;}
     [SupplyParameterFromForm]
-    private GameDetails game { get; set; } = new() {
-        Name = string.Empty,
-        ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow)
-    };
+    private GameDetails? game { get; set; }
 
     private Genre[]? genres;
+    private string title = string.Empty;
+
+    protected override void OnParametersSet() {
+        if (game is not null) {
+            return;
+        }
+        if (Id is not null) {
+            game = GamesClient.GetGame(Id.Value);
+            title = $"Edit {game.Name}";
+        } else {
+            game = new() {
+                Name = string.Empty,
+                ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow)
+            };
+            title = "New Game";
+        }
+    }
+
     protected override void OnInitialized() {
         genres = GenresClient.GetGenres();
     }
 
     private void HandleSubmit() {
-        GamesClient.AddGame(game);
+        ArgumentNullException.ThrowIfNull(game);
+        if (Id is null) {
+            GamesClient.AddGame(game);
+        } else {
+            game.Id = Id.Value;
+            GamesClient.UpdateGame(game);
+        }
         NavigationManager.NavigateTo("/");
     }
 }
