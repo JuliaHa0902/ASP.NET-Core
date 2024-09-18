@@ -47,8 +47,8 @@ else {
 
 @code {
     private GameSummary[]? games;
-    protected override void OnInitialized() {
-        games = Client.GetGames();
+    protected override async Task OnInitializedAsync() {
+        games = await Client.GetGamesAsync();
     }
     private static string GameUrl(int id) => $"/editgame/{id}";
     private string GetDeleteModalId(GameSummary game) {
